@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <h2 class="text-center">Chat-Karo!😜</h2>
+        
+        <div id="msg"></div>
+
+        <div class="form-inline">
+            <input type="text" placeholder="Enter message" id="message" class="form-control">
+            <button id="sendbtn" class="btn btn-primary ml-2">Send</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
